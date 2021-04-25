@@ -15,3 +15,11 @@
 .sidenav-overlay {
   z-index: 996 !important;
 }
+
+.progress .indeterminate {
+  background-color: #12acda;
+}
+
+.progress {
+  background-color: #0ed4ffeb;
+}
