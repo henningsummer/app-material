@@ -97,7 +97,7 @@
 
 
     <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js" async></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
 
@@ -110,13 +110,13 @@
         // Or with jQuery
 
         $(document).ready(function () {
-            $('.collapsible').collapsible();
             $(".progress").css('display', 'block')
             setTimeout(() => {
             $("#content").load('listagem.html');
              $(".progress").css('display', 'none')
             }, 800);
         });
+        
 
 
 
